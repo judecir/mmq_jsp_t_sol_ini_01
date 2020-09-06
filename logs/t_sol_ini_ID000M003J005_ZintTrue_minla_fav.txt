@@ -1,0 +1,55 @@
+CPXPARAM_TimeLimit                               7200
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Output_IntSolFilePrefix                 "solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol"
+Tried aggregator 1 time.
+MIP Presolve eliminated 51 rows and 0 columns.
+MIP Presolve modified 53 coefficients.
+Reduced MIP has 169 rows, 46 columns, and 483 nonzeros.
+Reduced MIP has 30 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.36 ticks)
+Found incumbent of value 70.000000 after 0.00 sec. (0.54 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 169 rows, 46 columns, and 483 nonzeros.
+Reduced MIP has 30 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.23 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.34 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           70.0000       33.0000            52.86%
+New incumbent written to file 'solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol-00001.sol'.
+*     0+    0                           69.0000       33.0000            52.17%
+New incumbent written to file 'solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol-00002.sol'.
+      0     0       33.0000     6       69.0000       33.0000       50   52.17%
+*     0+    0                           37.0000       33.0000            10.81%
+New incumbent written to file 'solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol-00003.sol'.
+      0     0       33.0000     2       37.0000      Cuts: 19       68   10.81%
+*     0+    0                           36.0000       33.0000             8.33%
+New incumbent written to file 'solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol-00004.sol'.
+      0     0       33.0000     5       36.0000      Cuts: 10       80    8.33%
+*     0+    0                           34.0000       33.0000             2.94%
+New incumbent written to file 'solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol-00005.sol'.
+      0     0       33.0000     5       34.0000       Cuts: 4       84    2.94%
+*     0+    0                           33.0000       33.0000             0.00%
+New incumbent written to file 'solucoes/t_sol_ini_ID000M003J005_ZintTrue_minla_fav/sol-00006.sol'.
+      0     0        cutoff             33.0000       33.0000       84    0.00%
+Elapsed time = 0.01 sec. (4.82 ticks, tree = 0.01 MB, solutions = 6)
+
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  10
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.83 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.83 ticks)
